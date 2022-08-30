@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: blueviolet;
+    
+}
+
+
+#box{
+    border-radius: 20%;
+    background-image: url('box.jpg');
+    background-size: cover;
+
+    height:100px;
+    width:100px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    
+}
+#box:hover{
+    cursor: pointer;
+}
+#box h2{
+    text-align: center;
+    padding:20px;
+    color:black;
+}
